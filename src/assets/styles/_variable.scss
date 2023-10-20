@@ -1,0 +1,79 @@
+$white: #fff !default;
+$gray-50: #f6f6f6 !default;
+$gray-100: #babfc7 !default;
+$gray-200: #ededed !default;
+$gray-300: #dae1e7 !default;
+$gray-400: #636363 !default;
+$gray-500: #adb5bd !default;
+$gray-600: #5E5873 !default;
+$gray-700: #4e5154 !default;
+$gray-800: #1e1e1e !default;
+$gray-900: #2a2e30 !default;
+$black: #22292f !default;
+
+$pink-opacity: #f7e3f0 !default;
+$body-bg: #fff !default;
+
+$green: #80C690 !default;
+$blue: #009CCA !default;
+$orange: #E17C26 !default;
+$danger: #ea5455 !default;
+
+$primarySecondary: #536DFE !default;
+$secondarySecondary: #FF5C93 !default;
+$highlightSecondary: #FFC107 !default;
+$backgroundSecondary: #F5F5F5 !default;
+$textSecondary: #212121 !default;
+
+$warning: $orange !default;
+
+// scss-docs-start container-max-widths
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1440px // Custom xxl size
+) !default;
+
+$link-color: $primarySecondary !default;
+$link-hover-color: darken($link-color, 5%) !default;
+$link-hover-decoration: none !default;
+
+$grid-gutter-width: 2rem !default;
+
+$line-height-lg: 1.25 !default;
+$line-height-sm: 1 !default;
+
+$border-width: 1px !default;
+$border-color: #ebe9f1 !default;
+$border-radius: 0.357rem !default;
+$border-radius-lg: 0.6rem !default;
+$border-radius-sm: 0.25rem !default;
+
+$btn-line-height: 1 !default;
+$btn-border-radius: 0.358rem !default;
+$btn-border-radius-lg: 0.358rem !default;
+$btn-border-radius-sm: 0.358rem !default;
+$text-muted: #b9b9c3 !default;
+$card-border-radius: 0.428rem !default;
+$card-bg: #fff !default;
+$headings-color: #5e5873 !default;
+
+$box-shadow: 0 4px 24px 0 rgba($black, 0.1) !default;
+
+@font-face {
+  font-family: "Montserrat-tin";
+  src: url(../fonts/montserrat/Montserrat-Medium.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "feather";
+  src: url('../fonts/WixMadeforText-VariableFont_wght.ttf') format("truetype");
+}
+
+// stylelint-disable value-keyword-case
+$font-family-sans-serif: 'Montserrat-tin', sans-serif;
+$font-family-monospace: 'Montserrat', Helvetica, Arial, serif !default;
+
+$font-family-feather: 'feather';

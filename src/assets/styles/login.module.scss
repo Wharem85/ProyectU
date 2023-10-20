@@ -1,0 +1,138 @@
+@import './variable';
+@import './palette-variable.scss';
+
+.auth-wrapper {
+	display: flex;
+	flex-basis: 100%;
+	min-height: 100vh;
+	min-height: calc(var(--vh, 1vh) * 100);
+	width: 100%;
+
+.auth-inner {
+  width: 45%;
+  position: relative;
+}
+
+.auth-inner-login {
+  width: 30%;
+  position:	relative;
+	margin: auto;
+}
+
+&.authv1 {
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  .auth-inner {
+    &:before {
+      width: 244px;
+      height: 243px;
+      content: ' ';
+      position: absolute;
+      top: -54px;
+      left: -46px;
+    }
+    &:after {
+      width: 272px;
+      height: 272px;
+      content: ' ';
+      position: absolute;
+      bottom: -55px;
+      right: -75px;
+      z-index: -1;
+    }
+  }
+}
+}
+
+.card-body {
+	padding: 21px;
+}
+
+.welcome {
+	color: #5e5873;
+	font-size: 20px;
+}
+
+.title {
+	text-align: center;
+	margin: 15px 0;
+}
+
+.content-logo {
+	text-align: center;
+	margin-top: 25px;
+}
+
+.text {
+	text-align: center;
+	color: #6e6b7b;
+	font-size: 18px;
+	margin-bottom: 15px;
+}
+
+.form-label {
+	font-size: 16px;
+	color: #4c4b54;
+	margin-bottom: 5px;
+}
+
+.content-input {
+	position: relative;
+	margin: 15px 5px;
+}
+
+.label-password {
+	display: flex;
+	justify-content: space-between;
+}
+
+.pass {
+	color:$primarySecondary;
+	cursor: pointer;
+}
+
+.login-email {
+	width: 100%;
+}
+
+.login-password {
+	width: 100%;
+}
+
+.new-platform {
+	color: #686772;
+	font-size: 17px;
+}
+
+.forget {
+  text-decoration: none;
+}
+
+.sign-in {
+  font-weight: bold;
+  font-family: $font-family-monospace;
+  font-size: 14px;
+	color: $white;
+}
+
+.new-user {
+	color:$primarySecondary;
+  text-decoration: none;
+	cursor: pointer;
+}
+
+.remind {
+	font-size: 14px;
+	color: #4c4b54;
+}
+
+
+.toast-title {
+	font-size: 16px;
+	margin: 0 0 10px 0;
+}
+
+.title-wrapper {
+	display: flex;
+}
