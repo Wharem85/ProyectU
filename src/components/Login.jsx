@@ -5,7 +5,6 @@ import { Card, Avatar, Button, Typography, TextField, Box, FormControl, FormCont
 import { Visibility, VisibilityOff } from '@mui/icons-material';
 import { Formik, Form } from 'formik';
 import { toast, Slide } from 'react-toastify';
-import { XCircle } from 'react-feather';
 import logo from '@img/logo.png';
 import styles from '@styles/login.module.scss';
 import Image from 'next/image';
@@ -39,6 +38,7 @@ const ToastContent = ({ name, message }) => {
 
 const Login = () => {
 	const [showPassword, setShowPassword] = useState(false);
+	const [usuario, setUsuario] = useState([]);
 
 	const handleClickShowPassword = () => setShowPassword((show) => !show);
 
